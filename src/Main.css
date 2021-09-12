@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.main {
+  width: 70%;
+  margin: 0rem auto;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 60fr auto;
+}
+
+.left-col {
+  margin: 5rem 1rem 1rem 1rem;
+}
+
+.left-col h2 {
+  font-size: 4.8rem;
+  margin-bottom: 0rem;
+}
+
+.sub-text {
+  font-size: 2rem;
+  color: #808080;
+  letter-spacing: 0.1px;
+  line-height: 140%;
+}
+
+.signup-text {
+  font-size: 1.4rem;
+  color: black;
+  opacity: 0.5;
+}
+
+.right-col {
+  margin: 5rem 1rem 1rem 1rem;
+}
+
+.right-col > img {
+  width: 500px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 3rem;
+}
+
+input[type=email] {
+  padding: 0.8rem;
+  font-family: 'Bebas Neue', sans-serif;
+  width: 50%;
+  font-size: 1.2rem;
+  color: black;
+}
+
+input[type=email]::placeholder {
+  font-size: 1.2rem;
+  color: black;
+  opacity: 0.3;
+  letter-spacing: 3px;
+}
+
+form > button {
+  background: rgb(58, 160, 218);
+  border: none;
+  outline: inherit;
+  cursor: pointer;
+  padding: 1rem;
+  margin-top: -1rem;
+  color: white;
+  font-size: 1.1rem;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-left: 3px;
+  letter-spacing: 2px;
+}
