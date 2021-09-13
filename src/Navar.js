@@ -19,7 +19,7 @@ export default function Navar() {
             <li className="li-contact">Video</li>
             <li className="li-contact">About</li>
             <li className="li-contact">Login</li>
-            <button>Set Started FREE</button>
+            <button className="try-button">Get-Started</button>
         </ul>
   </nav>
 

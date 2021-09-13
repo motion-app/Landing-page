@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;700&display=swap');
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main {
   width: 70%;
   margin: 0rem auto;
-  height: 80vh;
+  height: 90vh;
   display: grid;
   grid-template-columns: 60fr auto;
 }
@@ -29,6 +29,12 @@ body {
   color: #808080;
   letter-spacing: 0.1px;
   line-height: 140%;
+}
+
+.blue-line {
+  text-decoration: underline;
+  text-decoration-color: rgb(58, 160, 218);
+  text-underline-position: left;
 }
 
 .signup-text {

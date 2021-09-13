@@ -8,15 +8,16 @@ export default function Main() {
       <div className="left-col">
         <h2>Motion helps teams move work forward</h2>
         <p className="sub-text">
-          All in one easy-to-use workspace to manage projects, tasks, chat,
-          track team productivity and get things done.
+          All in one <span className="blue-line">easy-to-use</span> workspace to
+          manage projects, tasks, chat, track team productivity and{" "}
+          <span className="blue-line">get things done</span>.
         </p>
         <p className="signup-text">
           Sign up and try all our features for free!
         </p>
         <form>
           <input type="email" placeholder="Your work email" />
-          <button>Get Started</button>
+          <button>Get Started FREE</button>
         </form>
       </div>
 

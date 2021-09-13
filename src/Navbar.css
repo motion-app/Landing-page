@@ -22,6 +22,7 @@ body {
   display: inline-block;
   display: flex;
   cursor: pointer;
+  margin-top: 1rem;
 }
 
 .logo {
@@ -34,6 +35,7 @@ body {
   padding: 1rem 1rem 1rem 0rem;
   font-size: 2.5rem;
   /* font-weight: bold; */
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 ul {
@@ -49,6 +51,10 @@ ul > li {
   list-style-type: none;
   font-size: 1.2rem;
   cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
 }
 
 .li-contact {
@@ -61,8 +67,12 @@ ul > li {
   outline: inherit;
   cursor: pointer;
   padding: 1rem;
-  margin-top: -1rem;
+  /* margin-top: -1rem; */
   color: white;
   font-size: 1.1rem;
   font-family: 'Bebas Neue', sans-serif;
+  width: 100%;
+  height: auto;
+  white-space: nowrap;
+  text-align: center;
 }

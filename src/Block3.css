@@ -1,0 +1,38 @@
+.block-3-h2 {
+  font-size: 3rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.container {
+  width: 70%;
+  margin: 0rem auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.blocks {
+  background: #f1f1f1;
+  padding: 2rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.blocks:hover {
+  background: #dbdada;
+  transform: scale(1.1);
+}
+
+.blocks h2 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.blocks p {
+  font-size: 1.6rem;
+  color: #5f5e5e;
+  text-align: center;
+}
